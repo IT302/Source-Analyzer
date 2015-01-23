@@ -13,4 +13,4 @@ SourceAnalyzer is a simple [clang](http://clang.llvm.org) compiler  plugin for s
 $ export BD=/path/to/build/directory
 $ clang -cc1 -load $BD/lib/libSourceAnalyzer.so   some-input-file.c
 ```
-SourceAnalyzer was tested with LLVM 3.4 and clang 3.4  may not compile with other versions of LLVM or clang as APIs may differ.  The latest information about  clang plugins can be found [here](http://clang.llvm.org/docs/ClangPlugins.html)
+SourceAnalyzer was tested with LLVM 3.4 /clang 3.4  and may not compile with other versions of LLVM or clang as APIs may differ.  The latest information about  clang plugins can be found [here](http://clang.llvm.org/docs/ClangPlugins.html)
